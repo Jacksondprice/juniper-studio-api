@@ -1,0 +1,1 @@
+(function(){const a={apiBase:"https://api.juniper-studio-api.app",paymentsKey:"sk_live_gMtnPCE2JHchUqvs1qI48moG"};function b(e){return fetch(a.apiBase+e).then(r=>r.json())}window.app={load:b,cfg:a};})();
